@@ -1,0 +1,1086 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url( fonts/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Space Mono';
+    src: url( fonts/SpaceMono-Regular.ttf);
+}
+
+@media only screen and ( max-width: 768px) {
+    .hero-text {
+        font-size: 28px !important;
+    }
+    .hero-row p {
+        font-size: 16px !important; 
+    }
+    nav {
+        padding: 0px 20px !important;
+    }
+    .hero-row {
+        padding-top: 40px !important;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .hero-number {
+        font-size: 22px !important;
+    }
+    .hero-number-text {
+        font-size: 16px !important;
+    }
+    .trending-collection, .top-creators .browse-categories, .more-nfts, .how-it-works, .join-digest, .footer {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }  
+    .trending-title {
+        font-size: 28px !important;
+    }  
+    .trending-subtitle {
+        font-size: 16px !important;
+    }
+    .collection-row {
+        padding-top: 40px !important;
+    }
+    .how-it-works-card {
+        flex-direction: row !important;
+        padding: 20px !important;
+        align-items: normal !important;
+        height: auto !important;
+        justify-content: space-between;
+    }
+    .hiw-span {
+        font-size: 16px !important;
+    }
+    .hiw-p {
+        font-size: 12px !important;
+        text-align: start !important;
+    }
+    .hiw-img {
+        width: 100px;
+    }
+    .digest-title {
+        font-size: 28px !important;
+    }
+    .digest-subtitle {
+        font-size: 16px !important;
+    }
+    .logo-img {
+        width: 80% !important;
+    }
+    .logo {
+        display: inline !important;
+    }
+    .navbar-toggler {
+        padding: 0 !important;
+    }
+    .body {
+        overflow-x: hidden !important;
+    }
+    .join-digest {
+        background-color: transparent !important;
+    }
+
+}
+@media only screen and ( max-width: 992px) {
+    .column-hero {
+        display: none !important;
+    }
+    .button-div {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .nums {
+        display: block;
+        justify-content: center;
+    }
+    .buttons2, .outlined-buttons, .outlined-buttons2 {
+        width: 315px !important;
+    }
+    .trending-collections-none, .outlined-buttons3 {
+        display: none !important;
+    }
+    .top-creators, .button-white {
+        display: none !important;
+    }
+    .top-creators1 {
+        display: inherit !important;
+    }
+    .outlined-buttons2, .button-white2, .subscribtion-mobile {
+        display: inherit !important;
+    }
+    .nft-card p, .card-price {
+        font-size: 12px !important;
+    }
+    .auction2col {
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+    .auction1col {
+        padding-bottom: 0 !important;
+    }
+    .subscribtion {
+        display: none !important;
+    }
+    .subscribtion-mobile {
+        display: inherit !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .category-card p {
+        font-size: 16px !important;
+    }
+    .button-white2, .auction-div {
+        width: 100% !important;
+    }
+}
+
+.navigacia a {
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.buttons, .buttons2 {
+    height: 60px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    background: #A259FF;
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    border: none;
+    text-transform: capitalize;
+}
+
+.buttons:hover, .buttons2:hover{
+    background: #9650f1;
+    box-shadow: 4px 4px 5px #0c0c0c94;
+
+}
+.hero-text {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+.hero-row {
+    padding-top: 80px;
+}
+.hero-row p {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.hero-number {
+    color: var(--white, #FFF);
+    font-family: 'Space Mono';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+
+}
+.hero-number-text {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 23.99px;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    display: block;
+}
+.nums div {
+    width: 150px;
+}
+.hero-card, .hero-card2 {
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    max-width: 510px;
+    display: block;
+}
+.nft-name, .nft-name-card{
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-top: 0;
+    display: block;
+    text-decoration: none;
+}
+.nft-name {
+    margin-bottom: 12px;
+
+}
+
+.profile-link {
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-decoration: none;
+}
+.profile-link:hover, .creator-card a:hover, .nft-name-card:hover{
+    text-decoration: underline;
+}
+.trending-title {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+    display: block;
+    text-transform: capitalize;
+}
+.trending-collection, .top-creators, .browse-categories, .more-nfts, .how-it-works, .join-digest {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer {
+    margin-top: 80px;
+    padding-top: 40px;
+}
+.trending-subtitle, .nft-page-date {
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.trending-subtitle {
+    color: white;
+}
+.nft-page-date {
+    color: var(--caption-label-text, #858584);
+}
+.collection-row {
+    padding-top: 60px;
+}
+.more-trnd-collections {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    margin-left: 15px;
+}
+.more-trnd-collections:hover {
+    background: #9650f1;
+    box-shadow: 4px 4px 5px #0c0c0c94;
+}
+.more-trnd-collections span {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+}
+.outlined-buttons, .outlined-buttons2, .outlined-buttons3 {
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   border: 2px solid var(--call-to-action, #A259FF);
+   color: #FFF;
+   text-align: center;
+   font-family: 'Work Sans';
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 140%;
+   background-color: transparent;
+}
+.outlined-buttons:hover {
+    border-color: #9650f1;
+    box-shadow: 4px 4px 5px #0c0c0c94;
+}
+.creator-card {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+.number-of-creator-card {
+    display: flex;
+    width: 30px;
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    border-radius: 20px;
+    background: var(--background, #2B2B2B);
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.number-of-creator-card span, .number-of-creator-card2 span {
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.creator-card a, .mob-creator-card a {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin: 0;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.cr-span1 {
+    color: var(--caption-label-text, #858584);
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.cr-span2 {
+    color: var(--text, #FFF);
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.mob-creator-card {
+    display: flex;
+    padding: 20px;
+    align-self: stretch;
+    position: relative;
+    border-radius: 20px;
+    background: #3B3B3B;
+    align-items: center;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #3B3B3B;
+    position: relative;
+    padding-bottom: 25px;
+    overflow: hidden;
+
+}
+.category-card p {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+.outlined-buttons2 {
+    display: none;
+}
+.nft-card, .nft-card2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    border-radius: 20px;
+}
+.nft-card {
+    background: #3B3B3B;
+}
+.card-price {
+    color: #858584;
+    font-family: 'Space Mono';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: capitalize;
+    display: block;
+    margin: 0;
+}
+.nft-card p {
+    color: var(--white, #FFF);
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 8px;
+    margin: 0;
+}
+.nft-highlights {
+    background-image: url(images/NFT\ Highlight.png);
+    background-size: cover;
+    height: 660px;
+    background-position: center;
+}
+.artist-block {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 20px;
+    background: #3B3B3B;
+    width: 151px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+.nft-highlights-title {
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.button-white, .button-white2 {
+    display: flex;
+    height: 60px;
+    padding: 22px 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    color: var(--background, #2B2B2B);
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    border: none;
+    margin-top: 30px;
+}
+.button-white2 {
+    display: none;
+}
+.auction-div {
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);   
+    width: 295px;
+    height: 144px;
+}
+.auction-div p {
+    color: var(--text, #FFF);
+    font-family: 'Space Mono';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110%; 
+}
+.auction-div span {
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.auction1col {
+    padding-bottom: 60px;
+}
+.auction2col {
+    display: flex;
+    justify-content: end;
+}
+
+.how-it-works-card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px 30px 30px;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+    height: 439px;
+}
+.hiw-span {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    display: block;
+}
+.hiw-p {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 10px;
+}
+.join-digest {
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+.digest-title {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.digest-subtitle {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.laptop-input, .mobile-input {
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    display: flex;
+    height: 60px;
+    padding: 16px 0px 16px 20px;
+    border: none;
+}
+.laptop-input{
+    width: 425px;
+}
+.mobile-input {
+    display: flex;
+    width: 315px;
+    height: 46px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+}
+::placeholder {
+    color: var(--background, #2B2B2B);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.subscribtion-mobile {
+    display: none;
+    
+}
+.footer-text {
+    color: #CCC;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    display: block;
+    text-decoration: none;
+}
+.footer-title {
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.line {
+    max-width: 100%;
+    height: 1px;
+    color: #858584;
+}
+
+
+
+
+
+
+
+/*SIGN UP PAGE STYLE*/
+.sign-up-column1 {
+    height: 691px;
+    background-image: url(images/create\ account.png);
+    background-size: cover;
+    background-position: center;
+}
+.sign-up-title {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+    display: block;
+}
+.sign-up-subtitle {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    display: block;
+    margin-top: 20px;
+}
+.sign-up-column2 {
+    padding-top: 50px;
+}
+.signup-input {
+    height: 46px;
+    padding: 16px 20px;
+    border-radius: 20px !important;
+    border: 1px solid var(--caption-label-text, #858584);
+    background: var(--text, #FFF);
+    width: 330px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.signup-form {
+    margin-top: 40px;
+}
+
+@media only screen and ( max-width: 768px) {
+    .sign-up-title {
+        font-size: 38px !important;
+        text-align: center !important;
+    }
+    .sign-up-subtitle {
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+    .sign-up-column2 {
+        align-items: normal !important;
+        padding: 30px !important;
+    }
+    .signup-form {
+        align-items: center !important;
+        display:flex !important;
+        flex-direction: column !important;
+        margin-top: 0 !important;
+    }
+    .sign-up-column1 {
+        height: 232px !important;
+    }
+}
+
+
+
+
+
+
+
+/*ARTIST PROFILE PAGE STYLE*/
+.profile-background {
+    background-image: url(images/profile\ background.png);
+    background-size: cover;
+    background-position: center;
+    max-height: 320px;
+    height: 320px;    
+}
+.profile-username {
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+    margin-top: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.profile-username-column2 {
+    align-items: end;
+    justify-content: end;
+}
+.this-outlined-button {
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   border: 2px solid var(--call-to-action, #A259FF);
+   color: #FFF;
+   text-align: center;
+   font-family: 'Work Sans';
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 140%;
+   background-color: transparent;
+   margin-left: 20px;
+
+}
+.this-outlined-button:hover {
+    border-color: #9650f1;
+    box-shadow: 4px 4px 5px #0c0c0c94;
+}
+
+
+@media only screen and ( max-width: 768px) {
+    .profile-username-column2 {
+        flex-direction: column !important;
+        align-items: normal !important;
+        justify-content: center !important;
+        margin-top: 50px !important;
+    }
+    .artist-pfp {
+        justify-content: center !important;
+    }
+    .this-outlined-button {
+        margin-left: 0 !important;
+        margin-top: 20px !important;
+        width: 315px !important;
+    }
+    .artist-library-badge {
+        display: none !important;
+    }
+    .library-title-active, .library-title-inactive {
+        font-size: 16px !important;
+    }
+}
+@media only screen and ( max-width: 992px) {
+    .this-outlined-button {
+        width: 315px !important;
+    }
+    .profile-username-column2 button {
+        align-self: center;
+    }
+}
+
+.user-bio-title {
+    color: #858584;
+    font-family: 'Space Mono';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-top: 30px;
+    display: block;
+}
+.user-bio-text {
+    color: var(--white, #FFF);
+font-family: 'Work Sans';
+font-size: 22px;
+font-weight: 400;
+line-height: 160%;
+text-transform: capitalize;
+}
+.library-title-active {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.library-title-inactive {
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.artist-library-badge {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    border-radius: 20px;
+    max-width: 50px;
+    margin-left: 16px;
+}
+.artist-badge-number {
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.nft-card2 {
+    background-color: #2B2B2B;
+}
+.nft-card2 p {
+    color: var(--white, #FFF);
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 8px !important;
+    margin: 0;
+}
+.library-card-row {
+    padding-top: 80px;
+}
+
+
+
+
+
+
+/*CONNECT WALLET PAGE STYLE*/
+
+.metamask {
+    display: flex;
+    height: 72px;
+    padding: 0px 20px 0px 40px;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--call-to-action, #A259FF);
+    background: var(--background-secondary, #3B3B3B);
+    color: var(--white, #FFF);
+    font-family: 'Work Sans';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    width: 320px;
+}
+
+@media only screen and ( max-width: 768px) {
+    .wallet-buttons {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+    .metamask {
+        align-self: center !important;
+    }
+}
+
+
+
+
+
+
+/*NFT PAGE PAGE STYLE*/
+.nft-page-pic {
+    height: 560px;
+    background-image: url(images/nft-page-pic.png);
+    background-size: cover;
+}
+
+@media only screen and ( max-width: 768px) {
+    .nft-page-pic {
+        height: 320px !important;
+    }
+    .nft-page-date {
+        font-size: 16px !important;
+    }
+    .auction-countdown {
+        justify-content: center !important;
+    }
+    .tags-div {
+        flex-direction: column !important;
+    }
+    .more-from-artist-disapear {
+        display: none !important;
+    }
+}
+.nft-bid-button {
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    width: 100%;
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    border: none;
+}
+.nft-bid-button:hover {
+    box-shadow: 4px 4px 5px #0c0c0c94;
+    background-color: #9650f1;
+}
+.auction-countdown {
+    justify-content: end;
+}
+.tag-div {
+    display: flex;
+    height: 46px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: fit-content;
+}
+.tags-div {
+    display: flex;
+}
+.tag-div span {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+
+
+
+/*MARKETPLACE PAGE STYLE*/
+
+.search-form input {
+    display: flex;
+    width: 1050px;
+    height: 60px;
+    padding-left: 12px;
+   align-items: center;
+   border-radius: 20px;
+   border: 1px solid var(--background-secondary, #3B3B3B);
+   background-color: transparent;
+}
+
+
+
+.search-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.search-input {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding-left: 12px;
+   align-items: center;
+   border-radius: 20px;
+   border: 1px solid var(--background-secondary, #3B3B3B);
+   background-color: #2B2B2B;
+}
+.search-container ::placeholder {
+    color:  #858584;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.search-button {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust this value to control the position of the icon */
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+
+/*RANKING PAGE STYLE*/
+
+.template-ranking {
+    display: flex;
+    width: 100%;
+    height: 46px;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--Background---Secondary, #3B3B3B);
+}
+
+.template-ranking span {
+    color: var( #858584);
+    font-family: 'Space Mono';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+@media only screen and ( max-width: 998px) {
+    .number-of-creator-card2 {
+        background-color: transparent !important;
+    }
+    .number-of-creator-card2 span {
+        font-size: 12px !important;
+    }
+    .artist-rank-name {
+        font-size: 16px !important;
+    }
+    .that-div span {
+        font-size: 12px !important;
+    }
+    .img-artist-rank {
+        width: 24px !important;
+        height: 24px !important;
+        align-self: center !important;
+    }
+    .that-div {
+        align-items: end !important;
+        justify-content: end !important;
+        width: auto !important;
+    }
+}
+.that-div {
+    width: 100%;
+}
+.ranking-artist {
+    display: flex;
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+}
+
+.number-of-creator-card2 {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    border-radius: 20px;
+    background: var(--background, #2B2B2B);
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.artist-rank-name {
+    color: #FFF;
+
+/* H5 - Work Sans */
+font-family: Work Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 30.8px */
+text-transform: capitalize;
+text-decoration: none;
+align-self: center;
+}
+
+.artist-rank-name :hover {
+    text-decoration: underline !important;
+}
